@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nybrovej Dyreklinik – Din Dyrlæge i Kongens Lyngby</title>
+<meta name="description" content="Nybrovej Dyreklinik er en specialiseret smådyrsklinik i Kongens Lyngby. Vi behandler hunde, katte, kaniner og smådyr med omsorg og faglighed. Ring 45 88 50 40.">
+<meta name="keywords" content="dyrlæge Lyngby, dyrklinik Lyngby, smådyrsklinik, hund, kat, kanin, Nybrovej Dyreklinik, dyrlæge Kongens Lyngby">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.nybrovejdyreklinik.dk/">
+
+<!-- Open Graph (Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.nybrovejdyreklinik.dk/">
+<meta property="og:title" content="Nybrovej Dyreklinik – Din Dyrlæge i Kongens Lyngby">
+<meta property="og:description" content="Specialiseret smådyrsklinik i Kongens Lyngby. Vi behandler hunde, katte, kaniner og smådyr med omsorg og faglighed.">
+<meta property="og:locale" content="da_DK">
+<meta property="og:site_name" content="Nybrovej Dyreklinik">
+
+<!-- Schema.org lokal virksomhed -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VeterinaryCare",
+  "name": "Nybrovej Dyreklinik",
+  "url": "https://www.nybrovejdyreklinik.dk",
+  "telephone": "+4545885040",
+  "email": "info@nybrodyr.dk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Nybrovej 266",
+    "postalCode": "2800",
+    "addressLocality": "Kongens Lyngby",
+    "addressCountry": "DK"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "08:00", "closes": "17:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "18:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "08:00", "closes": "17:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "08:00", "closes": "17:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "16:00"}
+  ],
+  "description": "Specialiseret smådyrsklinik i Kongens Lyngby. Vi behandler hunde, katte, kaniner og andre smådyr.",
+  "priceRange": "$$",
+  "currenciesAccepted": "DKK",
+  "areaServed": ["Kongens Lyngby", "Bagsværd", "Virum", "Kgs. Lyngby", "Nordsjælland"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--g-dark:#1e3020;--g-main:#3d5a3e;--g-mid:#5a7d5b;--g-light:#eef5ee;--w-bg:#faf7f2;--w-card:#fff;--w-border:#e8e0d0;--t-dark:#1e2e1e;--t-body:#4a4030;--t-muted:#7a6e5a;--t-subtle:#9a8e7a;--amber:#c8870a;--amber-bg:#fef8ec;--amber-border:#e8c87a;--serif:'Lora',Georgia,serif;--sans:'Inter','Helvetica Neue',system-ui,sans-serif;--r:14px;--rs:8px;--sh:0 2px 16px rgba(30,48,32,.08);--shm:0 4px 32px rgba(30,48,32,.13)}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--w-bg);color:var(--t-body);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+
+/* THE CORE MAX-WIDTH APPROACH: sections fill full width, .c constrains content */
+.c{max-width:1100px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3.5rem)}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--w-border);height:70px}
+.nav .c{height:100%;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-family:var(--serif);font-size:1.2rem;font-weight:600;color:var(--g-main);line-height:1.2;cursor:pointer;display:flex;align-items:center;gap:.75rem}
+.nav-logo small{display:block;font-family:var(--sans);font-size:.68rem;font-weight:400;color:var(--t-subtle);letter-spacing:.07em;text-transform:uppercase}
+.nav-links{display:flex;gap:.2rem;list-style:none;align-items:center}
+.nav-links a{font-size:.875rem;color:var(--t-body);padding:.45rem .85rem;border-radius:100px;transition:var(--transition);white-space:nowrap;cursor:pointer;letter-spacing:.01em}
+.nav-links a:hover{background:var(--g-pale);color:var(--g-main)}
+.nav-links a.active{background:var(--g-light);color:var(--g-main);font-weight:600}
+.nav-cta{background:var(--g-main)!important;color:#fff!important;font-weight:600!important;padding:.45rem 1.1rem!important}
+.nav-cta:hover{background:var(--g-dark)!important}
+
+/* PAGES */
+.page{display:none}.page.active{display:block}
+.hero-img-mobile{display:none}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:.4rem;padding:.75rem 1.85rem;border-radius:100px;font-family:var(--sans);font-size:.95rem;font-weight:600;cursor:pointer;border:none;transition:var(--transition);text-decoration:none;letter-spacing:.01em}
+.btn-p{background:var(--g-main);color:#fff!important;box-shadow:0 1px 4px rgba(26,45,28,.2)}.btn-p:hover{background:var(--g-dark)!important;color:#fff!important;transform:translateY(-2px);box-shadow:0 6px 20px rgba(26,45,28,.28)}
+.btn-g{background:transparent;color:var(--g-main);border:1.5px solid var(--g-main)}.btn-g:hover{background:var(--g-pale);transform:translateY(-1px)}
+
+/* HERO */
+.hero-bg{background:var(--g-light)}
+.hero{display:grid;grid-template-columns:55% 45%;min-height:460px;max-width:1100px;margin:0 auto}
+.hero-text{padding:4rem clamp(1.5rem,4vw,3.5rem);display:flex;flex-direction:column;justify-content:center;max-width:600px}
+.eyebrow,.sec-label{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--g-mid);font-weight:700;margin-bottom:.85rem}
+.hero-text h1{font-family:var(--serif);font-size:2.9rem;font-weight:600;line-height:1.12;color:var(--t-dark);margin-bottom:1.25rem;letter-spacing:-.01em}
+.hero-text h1 em{font-style:italic;color:var(--g-main)}
+.hero-desc{font-size:1rem;color:var(--t-body);line-height:1.75;max-width:520px;margin-bottom:2rem}
+.btn-row{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.hero-img{overflow:hidden;background:var(--g-light);display:flex;align-items:center;justify-content:center;padding:2.5rem 2rem}.hero-img img{width:100%;height:auto;max-height:380px;object-fit:cover;object-position:center top;border-radius:var(--r);box-shadow:var(--shm)}
+
+/* SECTIONS */
+.sec{padding:5rem 0}.sec-alt{background:var(--w-card);padding:5rem 0}.sec-green{background:var(--g-pale);padding:5rem 0}
+.sec-title{font-family:var(--serif);font-size:2.15rem;font-weight:300;color:var(--t-dark);line-height:1.2;margin-bottom:1.5rem;max-width:560px;letter-spacing:-.015em}
+
+/* PG-HDR */
+.pg-hdr{background:var(--g-pale);border-bottom:1px solid var(--w-border);padding:3.75rem 0 3.25rem}
+.pg-hdr h1{font-family:var(--serif);font-size:2.4rem;font-weight:300;color:var(--t-dark);margin-bottom:.65rem;letter-spacing:-.02em}
+.pg-hdr p{font-size:1.05rem;color:var(--t-muted);max-width:540px;line-height:1.6}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.about-text p{color:var(--t-body);line-height:1.8;margin-bottom:1.1rem}
+.about-quote{margin-top:1.75rem;padding:1.35rem 1.6rem;background:var(--g-pale);border-left:3px solid var(--g-main);border-radius:0 var(--rs) var(--rs) 0;font-family:var(--serif);font-style:italic;color:var(--g-dark);line-height:1.75;font-size:1.02rem}
+.about-img{border-radius:var(--r);overflow:hidden;height:360px}.about-img img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+
+/* SERVICES */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem}
+.svc-card{background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);padding:2rem 1.75rem;transition:var(--transition)}
+.svc-card:hover{transform:translateY(-3px);box-shadow:var(--shm)}
+.svc-icon{width:44px;height:44px;background:var(--g-pale);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem}
+.svc-icon svg{width:24px;height:24px;stroke:var(--g-main);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.svc-card h3{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--t-dark);margin-bottom:.6rem}
+.svc-card p{font-size:.9rem;color:var(--t-muted);line-height:1.65}
+.svc-link{display:inline-flex;align-items:center;gap:.3rem;margin-top:1rem;font-size:.875rem;font-weight:600;color:var(--g-main);cursor:pointer}
+
+/* HOURS/CONTACT */
+.hc-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start}
+.hours-table{width:100%;border-collapse:collapse;margin-top:1.5rem}
+.hours-table tr{border-bottom:1px solid var(--w-border)}.hours-table tr:last-child{border-bottom:none}
+.hours-table td{padding:.75rem 0;font-size:.9rem;color:var(--t-body)}.hours-table td:last-child{text-align:right;font-weight:600;color:var(--t-dark)}
+.hours-note{margin-top:1rem;font-size:.82rem;color:var(--t-subtle);font-style:italic}
+.contact-card{background:linear-gradient(135deg,var(--g-main),var(--g-dark));border-radius:var(--r);padding:2.4rem 2.1rem;color:#fff;box-shadow:var(--shm)}
+.contact-card h3{font-family:var(--serif);font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:1.5rem}
+.c-row{display:flex;align-items:flex-start;gap:.85rem;margin-bottom:1rem;font-size:.9rem;line-height:1.5;opacity:.92}
+.c-row svg{width:18px;height:18px;stroke:rgba(255,255,255,.7);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;margin-top:2px}
+.c-row a{color:#fff}
+.vagt-box{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:var(--rs);padding:1rem 1.25rem;margin-top:1.5rem;font-size:.85rem;line-height:1.65;opacity:.92}
+.vagt-box strong{display:block;margin-bottom:.35rem;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+
+/* INFO CARDS */
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.info-card{background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;transition:var(--transition);cursor:pointer}
+.info-card:hover{transform:translateY(-4px);box-shadow:var(--shm)}
+.info-card-img{height:240px;overflow:hidden}.info-card-img img{width:100%;height:100%;object-fit:cover;object-position:center 20%;transition:transform .3s}
+.info-card:hover .info-card-img img{transform:scale(1.04)}
+.info-card-body{padding:1.5rem}
+.info-card h3{font-family:var(--serif);font-size:1.08rem;font-weight:600;color:var(--t-dark);margin-bottom:.5rem}
+.info-card p{font-size:.875rem;color:var(--t-muted);line-height:1.65;margin-bottom:.85rem}
+.read-more{font-size:.82rem;font-weight:600;color:var(--g-main)}
+.hl-box{margin-top:3rem;padding:2.5rem;background:var(--g-light);border-radius:var(--r);border:1px solid var(--w-border)}
+.hl-box p{color:var(--t-body);line-height:1.8;max-width:680px;margin-bottom:1.5rem}
+
+/* TEAM */
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.team-card{background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;text-align:center;transition:var(--transition)}
+.team-card:hover{transform:translateY(-4px);box-shadow:var(--shm)}
+.team-avatar{height:200px;background:linear-gradient(160deg,var(--g-pale),#d4e8d4);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.team-avatar img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.team-initials{width:72px;height:72px;background:var(--g-main);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1.5rem;font-weight:600;color:#fff}
+.team-body{padding:1.35rem 1.1rem 1.5rem}
+.team-role{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--g-mid);font-weight:700;margin-bottom:.35rem}
+.team-body h3{font-family:var(--serif);font-size:1rem;font-weight:600;color:var(--t-dark);margin-bottom:.35rem}
+
+/* PRISER */
+.price-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+.price-sec{background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden}
+.price-hdr{background:var(--g-pale);padding:1rem 1.5rem;border-bottom:1px solid var(--w-border);display:flex;align-items:center;gap:.75rem}
+.price-hdr svg{width:20px;height:20px;stroke:var(--g-main);fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.price-hdr h3{font-family:var(--serif);font-size:1rem;font-weight:600;color:var(--t-dark)}
+.price-row{display:flex;justify-content:space-between;align-items:center;padding:.65rem 1.5rem;border-bottom:1px solid var(--w-border);font-size:.875rem;gap:1rem}
+.price-row:last-child{border-bottom:none}.price-name{color:var(--t-body);flex:1}.price-amt{font-weight:600;color:var(--t-dark);white-space:nowrap}
+.price-note{padding:.75rem 1.5rem;font-size:.78rem;color:var(--t-subtle);font-style:italic;border-top:1px solid var(--w-border);background:var(--w-bg)}
+.price-tag{display:inline-block;margin-bottom:2rem;background:var(--amber-bg);border:1px solid var(--amber-border);border-radius:100px;padding:.35rem 1rem;font-size:.8rem;color:var(--amber);font-weight:600}
+
+/* TANDKLINIKKEN */
+.tand-grid{display:grid;grid-template-columns:1fr 340px;gap:3rem;align-items:start}
+.tand-content h2{font-family:var(--serif);font-size:1.75rem;font-weight:600;color:var(--t-dark);margin-bottom:1rem}
+.tand-content p{color:var(--t-body);line-height:1.8;margin-bottom:1rem}
+.tand-box{background:var(--g-pale);border-radius:var(--r);padding:1.6rem 1.75rem;margin-top:1.5rem;border:1px solid var(--w-border)}
+.tand-box h4{font-size:.85rem;font-weight:700;color:var(--t-dark);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.75rem}
+.tand-box ul{padding-left:1.25rem}.tand-box li{font-size:.9rem;color:var(--t-body);line-height:1.75;margin-bottom:.2rem}
+.tand-hl{background:var(--g-dark);color:#fff;border-radius:var(--r);padding:1.5rem 2rem;margin-top:1.5rem}
+.tand-hl p{color:rgba(255,255,255,.85);line-height:1.7;font-size:.9rem}
+.tand-hl strong{color:#fff;display:block;font-family:var(--serif);font-size:1rem;margin-bottom:.4rem}
+
+/* AMBER */
+.amber-note{padding:1.35rem 1.6rem;background:var(--amber-bg);border:1px solid var(--amber-border);border-radius:var(--r);font-size:.875rem;color:var(--amber);line-height:1.7;margin-top:2rem}
+.amber-note a{color:var(--amber);font-weight:600}
+
+/* FOOTER */
+.footer{background:var(--g-dark);color:rgba(255,255,255,.55)}
+.footer-grid{max-width:1100px;margin:0 auto;padding:3.5rem clamp(1.5rem,4vw,3.5rem);display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:3.5rem}
+.f-logo{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:#fff;margin-bottom:.5rem}.f-desc{font-size:.82rem;line-height:1.7}
+.f-col h4{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.35);margin-bottom:.75rem}
+.f-col p,.f-col a{font-size:.85rem;line-height:1.8;color:rgba(255,255,255,.6);text-decoration:none;display:block;cursor:pointer}.f-col a:hover{color:#fff;opacity:1}
+.f-btm{border-top:1px solid rgba(255,255,255,.08)}
+.f-btm-inner{max-width:1100px;margin:0 auto;padding:.85rem clamp(1.5rem,4vw,3.5rem);display:flex;justify-content:space-between;font-size:.78rem;color:rgba(255,255,255,.3)}
+.f-btm-inner a{color:rgba(255,255,255,.3);cursor:pointer}.f-btm-inner a:hover{color:rgba(255,255,255,.6)}
+.vf-link{display:inline-flex;align-items:center;gap:.5rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:100px;padding:.3rem .85rem .3rem .5rem;font-size:.75rem;color:rgba(255,255,255,.6);margin-top:1rem;text-decoration:none;transition:all .2s}
+.vf-link:hover{background:rgba(255,255,255,.15);color:#fff}
+.vf-dot{width:8px;height:8px;background:#e05a5a;border-radius:50%;flex-shrink:0}
+
+/* PHONE LINKS hover */
+a[href^="tel"] { color:inherit; text-decoration:none; }
+a[href^="tel"]:hover { opacity:.75; }
+.f-col a[href^="tel"]:hover { opacity:1; color:#fff; }
+/* Don't override green CTA button */
+.nav-cta:hover { opacity:1; }
+.btn-p a[href^="tel"] { color:#fff; }
+
+/* SECTION BACKGROUND: ensure good contrast between alternating sections */
+.sec-alt { background:var(--w-card); }
+.sec-green { background:var(--g-light); }
+/* Forside: alternate sec backgrounds more clearly */
+#pg-forside .sec-alt:nth-of-type(2) { background:var(--w-bg); }
+
+
+/* ── MOBIL NAVIGATION (hamburger) ── */
+@media(max-width:768px){
+  .nav-links{display:none}
+  .nav-links.open{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:stretch !important;
+    justify-content:flex-start !important;
+    position:fixed !important;
+    top:70px !important;
+    left:0 !important;
+    right:0 !important;
+    bottom:0 !important;
+    width:100% !important;
+    height:calc(100vh - 70px) !important;
+    background:#fff !important;
+    z-index:999999 !important;
+    overflow-y:auto !important;
+    overflow-x:hidden !important;
+    border-top:2px solid var(--g-light) !important;
+    gap:0 !important;
+    padding:0 !important;
+    margin:0 !important;
+  }
+  .nav-links li{width:100%;border-bottom:1px solid var(--w-border)}
+  .nav-links li:last-child{border-bottom:none}
+  .nav-links a{
+    display:block;
+    padding:1.25rem 2rem;
+    border-radius:0;
+    font-size:1.1rem;
+    font-weight:500;
+    color:var(--t-dark);
+    background:none;
+  }
+  .nav-links a.active{color:var(--g-main);background:var(--g-light)}
+  .nav-links a:hover{background:var(--g-pale);color:var(--g-main)}
+  .nav-links .nav-cta{
+    background:var(--g-main)!important;
+    color:#fff!important;
+    margin:1.5rem 2rem;
+    border-radius:100px;
+    text-align:center;
+    display:block;
+    padding:1rem 2rem!important;
+  }
+  .hamburger{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    cursor:pointer;
+    padding:.5rem;
+    background:none;
+    border:none;
+    margin-left:auto;
+    flex-shrink:0;
+  }
+  .hamburger span{
+    display:block;width:24px;height:2px;
+    background:var(--g-dark);border-radius:2px;
+    transition:all .25s;
+  }
+  .hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+  .hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+  .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+}
+@media(min-width:769px){
+  .hamburger{display:none}
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr}.hero-img{display:none}.hero-img-mobile{display:block;margin:1.25rem 0}
+  .hero-img-mobile + .hero-desc{margin-top:1.25rem}
+  .hero-text .hero-desc:first-of-type{margin-bottom:1.25rem}
+  .about-grid,.hc-grid,.tand-grid{grid-template-columns:1fr;gap:2rem}
+  .services-grid,.info-grid{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+  .price-grid{grid-template-columns:1fr}
+  /* Staff + subpages: collapse two-column grids */
+  [style*="grid-template-columns:1fr 300px"],
+  [style*="grid-template-columns:1fr 320px"],
+  [style*="grid-template-columns:1fr 260px"],
+  [style*="grid-template-columns:1fr 280px"],
+  [style*="grid-template-columns:1fr 4rem"]{
+    grid-template-columns:1fr !important;
+    gap:1.5rem !important;
+  }
+}
+@media(max-width:600px){
+  .services-grid,.info-grid,.team-grid,.price-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-text h1{font-size:2rem}
+  .sec-title{font-size:1.6rem}
+  /* Stack all inline two-column grids on small screens */
+  [style*="grid-template-columns:1fr 1fr"],
+  [style*="grid-template-columns:1fr 300px"],
+  [style*="grid-template-columns:1fr 320px"],
+  [style*="grid-template-columns:1fr 260px"],
+  [style*="grid-template-columns:1fr 280px"]{
+    grid-template-columns:1fr !important;
+    gap:1.5rem !important;
+  }
+  /* Images in subpages: don't go sticky on mobile */
+  [style*="position:sticky"]{
+    position:relative !important;
+    top:auto !important;
+  }
+  /* Section padding tighter on mobile */
+  .sec,.sec-alt,.sec-green{padding:3rem 0}
+  .pg-hdr{padding:2rem 0}
+  .hero-img img{border-radius:var(--r);width:100%;height:auto;max-height:320px;object-fit:cover}
+  /* Price grid */
+  .price-grid{grid-template-columns:1fr !important}
+}
+@media(max-width:600px){
+  .services-grid,.info-grid,.team-grid,.price-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .hero-text h1{font-size:2rem}
+  .sec-title{font-size:1.6rem}
+}
+
+</style>
+</head>
+<body>
+
+<!-- Cookie banner -->
+<div id="cookie-banner" style="position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--g-dark);color:rgba(255,255,255,.9);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;box-shadow:0 -4px 20px rgba(0,0,0,.2)">
+  <p style="font-size:.875rem;line-height:1.6;margin:0">Vi bruger cookies til statistik og forbedring af din oplevelse. <span onclick="go('privatlivspolitik')" style="color:var(--g-light);text-decoration:underline;cursor:pointer">Privatlivspolitik</span>.</p>
+  <button onclick="document.getElementById('cookie-banner').style.display='none';try{localStorage.setItem('cookies','ok')}catch(e){}" style="background:var(--g-main);color:#fff;border:none;border-radius:100px;padding:.5rem 1.25rem;font-size:.875rem;font-weight:600;cursor:pointer;flex-shrink:0">Acceptér</button>
+</div>
+
+
+<nav class="nav">
+  <div class="c">
+    <div class="nav-logo" onclick="go('forside')">
+      <img src="images/logo.avif" alt="Nybrovej Dyreklinik" style="height:46px;width:auto;border-radius:4px">
+      <span>Nybrovej Dyreklinik<small>Kongens Lyngby</small></span>
+    </div>
+    <ul class="nav-links">
+      <li><a id="nl-forside" class="active" onclick="go('forside')">Forside</a></li>
+      <li><a id="nl-information" onclick="go('information')">Information</a></li>
+      <li><a id="nl-tandklinikken" onclick="go('tandklinikken')">Tandklinikken</a></li>
+      <li><a id="nl-personale" onclick="go('personale')">Personale</a></li>
+      <li><a id="nl-priser" onclick="go('priser')">Priser</a></li>
+      <li><a href="tel:45885040" class="nav-cta">Ring: 45 88 50 40</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Åbn menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+
+<!-- FORSIDE -->
+<div id="pg-forside" class="page active">
+  <div class="hero-bg">
+    <div class="hero">
+      <div class="hero-text">
+        <div class="eyebrow">Smådyrsklinik · Kongens Lyngby</div>
+        <h1>Omsorg og tryghed for dine <em>kæledyr</em></h1>
+        <p class="hero-desc">Vi er en specialiseret smådyrsklinik beliggende på Nybrovej i udkanten af Lyngby — tæt på Bagsværd og Virum. Vi behandler hunde, katte, kaniner og andre mindre kæledyr med faglighed, respekt og personlig omsorg. Hos os er der altid tid til en snak, og vi sikrer at både dyr og ejer føler sig trygge.</p>
+        <div class="hero-img-mobile"><img src="images/forside_hus_hero.avif" alt="Nybrovej Dyreklinik" style="width:100%;border-radius:var(--r);height:auto;max-height:280px;object-fit:cover;object-position:center top"></div>
+        <p class="hero-desc">Hos os mødes du altid af et engageret og erfarent team, der tager sig tid til både dig og dit dyr. Vi lægger vægt på tryghed, god kommunikation og behandling af høj faglig kvalitet.</p>
+        <div class="btn-row">
+          <a href="tel:45885040" class="btn btn-p" style="color:#fff">Ring til os</a>
+          <span class="btn btn-g" onclick="go('information')">Vores ydelser →</span>
+        </div>
+      </div>
+      <div class="hero-img"><img src="images/forside_hus_hero.avif" alt="Nybrovej Dyreklinik" style="object-position:center top"></div>
+    </div>
+  </div>
+  <div class="sec-alt"><div class="c">
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="sec-label">Om klinikken</div>
+        <h2 class="sec-title">En klinik i trygge og rolige rammer</h2>
+        <p>Vi modtager dit kæledyr i vores hyggelige venteværelse, hvor der er rigelig plads og tid til en sludder med sygeplejerskerne.</p>
+        <p>Vi behandler hunde, katte, kaniner og andre mindre kæledyr. For os er det vigtigt at yde en professionel og kompetent behandling, og at dyrene behandles med respekt og omsorg.</p>
+        <p>Hos Nybrovej Dyreklinik prioriterer vi personlig kontakt og tryghed, så både kæledyr og ejere føler sig velkomne.</p>
+        <blockquote class="about-quote">"Vi glæder os til at møde dig og dit kæledyr — og sikre, at I begge føler jer godt behandlet."</blockquote>
+      </div>
+      <div class="about-img"><img src="images/klinikken_julie_louise.jpg" alt="Klinikken"></div>
+    </div>
+  </div></div>
+    <div class="sec-alt"><div class="c">
+    <div class="hc-grid">
+      <div>
+        <div class="sec-label">Åbningstider</div>
+        <h2 class="sec-title">Åbningstider</h2>
+        <table class="hours-table">
+          <tr><td>Mandag</td><td>8.00 – 17.00</td></tr>
+          <tr><td>Tirsdag</td><td>8.00 – 18.00</td></tr>
+          <tr><td>Onsdag</td><td>8.00 – 17.00</td></tr>
+          <tr><td>Torsdag</td><td>8.00 – 17.00</td></tr>
+          <tr><td>Fredag</td><td>8.00 – 16.00</td></tr>
+        </table>
+        <p class="hours-note">Dyrlægerne har fast telefontid hverdage kl. 13.00–13.30. Du er altid velkommen til at ringe og rådføre dig med sygeplejerskerne.</p>
+      </div>
+      <div>
+        <div class="contact-card">
+          <h3>Kontakt os</h3>
+          <div class="c-row"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><span><a href="tel:45885040">45 88 50 40</a></span></div>
+          <div class="c-row"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span><a href="mailto:info@nybrodyr.dk">info@nybrodyr.dk</a></span></div>
+          <div class="c-row"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Nybrovej 266<br>2800 Kongens Lyngby</span></div>
+          <div class="vagt-box"><strong>Vagtordning</strong>Vi passer selv vagten for vores egne patienter. Ring <a href="tel:45885040">45 88 50 40</a> for vagthavende. Vi er også tilknyttet døgnvagtordningen på Københavns Dyrehospital på <a href="tel:36175711">36 17 57 11</a>.</div>
+        </div>
+      </div>
+    </div>
+  </div></div>
+</div>
+
+<!-- INFORMATION -->
+<div id="pg-information" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Nybrovej Dyreklinik</div><h1>Information</h1><p>Her kan du læse om nogle af vores vigtige fokusområder på Nybrovej Dyreklinik.</p></div></div>
+  <div class="sec-alt"><div class="c">
+    <div class="info-grid">
+      <div class="info-card" onclick="go('sub-vaccinationer')"><div class="info-card-img"><img src="images/vaccinationer.avif" alt="Vaccinationer"></div><div class="info-card-body"><h3>Vaccinationer</h3><p>Se hvilke vaccinationer vi anbefaler til hvalpen og den voksne hund.</p><span class="read-more">Læs mere →</span></div></div>
+      <div class="info-card" onclick="go('sub-tandbehandling')"><div class="info-card-img"><img src="images/tandbehandling.avif" alt="Tandbehandling"></div><div class="info-card-body"><h3>Tandbehandling</h3><p>Husk tænderne! Vi tilbyder tandrens med fuld tandrøntgen.</p><span class="read-more">Læs mere →</span></div></div>
+      <div class="info-card" onclick="go('sub-neutralisering')"><div class="info-card-img"><img src="images/neutralisering.avif" alt="Neutralisering"></div><div class="info-card-body"><h3>Neutralisering</h3><p>Se vores tilbud på kastration og sterilisation af kat.</p><span class="read-more">Læs mere →</span></div></div>
+      <div class="info-card" onclick="go('sub-hvalpepakker')"><div class="info-card-img"><img src="images/hvalpepakker.avif" alt="Hvalpepakker"></div><div class="info-card-body"><h3>Hvalpepakker</h3><p>Vaccination, sundhedstjek og rådgivning til din nye hvalp.</p><span class="read-more">Læs mere →</span></div></div>
+      <div class="info-card" onclick="go('sub-hjerteorm')"><div class="info-card-img"><img src="images/hjerteorm.avif" alt="Hjerteorm"></div><div class="info-card-body"><h3>Hjerteorm</h3><p>Øget forekomst af hjerteorm i Lyngby-omegnen.</p><span class="read-more">Læs mere →</span></div></div>
+      <div class="info-card" onclick="go('sub-forsikringer')"><div class="info-card-img"><img src="images/forsikringer.avif" alt="Forsikringer"></div><div class="info-card-body"><h3>Forsikringer</h3><p>Det er en god idé at tegne en dyreforsikring — vi rådgiver gerne.</p><span class="read-more">Læs mere →</span></div></div>
+    </div>
+    <div class="hl-box">
+      <div class="sec-label">Tandklinikken</div>
+      <h2 class="sec-title" style="margin-bottom:1rem">Vi har vores egen tandklinik</h2>
+      <p>Nybrovej Dyreklinik har en specialiseret tandklinik med det nyeste udstyr til tandrens og tandbehandling — inkl. fuld digital tandrøntgen.</p>
+      <span class="btn btn-p" onclick="go('tandklinikken')" style="cursor:pointer;margin-top:1rem">Læs om tandklinikken →</span>
+    </div>
+  </div></div>
+</div>
+
+<!-- TANDKLINIKKEN -->
+<div id="pg-tandklinikken" class="page">
+  <div class="pg-hdr"><div class="c">
+    <div class="sec-label">Nybrovej Dyreklinik</div>
+    <h1>Tandklinikken</h1>
+    <p>På Nybrovej Dyreklinik har vi fokus på, at vores kæledyr har sunde tænder hele livet.</p>
+  </div></div>
+  <div class="sec-alt"><div class="c">
+    <div class="tand-grid">
+
+      <!-- VENSTRE: tekst -->
+      <div class="tand-content">
+        <div class="sec-label">Tandpleje for kæledyr</div>
+        <h2>Sunde tænder — et langt liv</h2>
+        <p>På Nybrovej Dyreklinik har vi fokus på, at vores kæledyr har sunde tænder. Det er vigtigt for os at gennemgå mundhulen grundigt ved enhver henvendelse og undersøgelse hos os.</p>
+        <p>Vi anbefaler at få booket en tandkonsultation, når det passer dig. Her vil sygeplejersken gennemgå tænder og tandkød, og der vil blive udleveret et tandkort, som beskriver dyrets tandstatus. Herudover vil dyrlægen rådgive og vejlede om evt. yderligere tandbehandling eller forebyggende tiltag.</p>
+
+        <h3 style="font-family:var(--serif);font-size:1.15rem;color:var(--t-dark);margin:1.5rem 0 .6rem">Lidt om tænder</h3>
+        <p>Rigtig mange hunde og katte har tandproblemer — selv de unge! Det gælder fx tandsten og tandkødsbetændelse, hvilket i værste fald kan føre til parodontose, tandbylder og behov for tandudtrækning eller operation.</p>
+        <p>Tænder kan også komme til skade, og tandskader er noget, vi hyppigt tager os af.</p>
+        <p>Hvis der er synlige tandsten eller tegn på tandkødsbetændelse, anbefaler vi tandrensning. Tandrensning foregår i fuld bedøvelse, så undersøgelsen kan laves korrekt, ligesom røntgenbilleder af samtlige tænder også er obligatorisk.</p>
+
+        <div class="tand-box" style="margin-top:1.5rem">
+          <h4>Forebyggelse</h4>
+          <p style="font-size:.9rem;margin-bottom:.75rem">Daglig tandbørstning — den mest effektive forebyggelse.</p>
+          <h4 style="margin-top:.5rem">Symptomer — hold øje med:</h4>
+          <ul>
+            <li>Dårlig ånde?</li>
+            <li>Blødende tandkød ved berøring eller tandbørstning?</li>
+            <li>Brune belægninger på tænderne?</li>
+            <li>Løse tænder?</li>
+            <li>Savler din hund eller kat mere end normalt?</li>
+            <li>Problemer med at tygge? Tygger kun i den ene side?</li>
+            <li>Nedsat appetit og/eller nedstemt/aggressiv adfærd?</li>
+            <li>Besvær med at åbne munden?</li>
+          </ul>
+        </div>
+
+        <!-- Kaninboks nederst -->
+        <div class="tand-hl" style="background:var(--g-mid);margin-top:1.5rem">
+          <strong>Kaniner og gnavere kan også få tandproblemer.</strong>
+          <p>Deres tænder vokser hele livet, og hvis tænderne ikke slides nok vha. korrekt fodring, kan de vokse sig skæve og endda gro helt ind i kæbeknoglen. Denne tilstand kan behandles med tandslibning under fuld bedøvelse.</p>
+        </div>
+
+        <div style="margin-top:1.5rem">
+          <a href="tel:45885040" class="btn btn-p" style="color:#fff!important">Bestil tid: 45 88 50 40</a>
+        </div>
+        <div class="price-sec" style="max-width:620px;margin-top:1.5rem">
+          <div class="price-hdr"><h3>Priser</h3></div>
+          <div class="price-row" style="border-bottom:1px solid var(--w-border)">
+            <span class="price-name">Tandrens kat inkl. fuld tandrøntgen</span>
+            <span class="price-amt">Ca. 3.000,-</span>
+          </div>
+          <div class="price-row">
+            <span class="price-name">Tandrens hund inkl. fuld tandrøntgen</span>
+            <span class="price-amt">Ca. 3.800,-</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HØJRE: billeder + prisboks -->
+      <div>
+        <img src="images/tandklinik_1.avif" alt="Tandklinikken" style="width:100%;border-radius:var(--r);margin-bottom:1rem;height:auto">
+        <img src="images/tandklinik_2.avif" alt="Tandbørstning" style="width:100%;border-radius:var(--r);margin-bottom:1.5rem;height:auto"></div>
+      </div>
+
+    </div>
+  </div></div>
+</div>
+
+<div id="pg-personale" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Nybrovej Dyreklinik</div><h1>Mød vores team</h1><p>Vi er et dedikeret hold af dyrlæger, veterinærsygeplejersker og assistenter.</p></div></div>
+  <div class="sec-alt"><div class="c">
+    <div class="info-grid"><div class="info-card" onclick="go('staff-louise')" style="text-align:left"><div class="info-card-img"><img src="images/louise.avif" alt="Louise" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Dyrlæge & klinikejer</div><h3>Louise</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-julie')" style="text-align:left"><div class="info-card-img"><img src="images/julie.avif" alt="Julie" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Dyrlæge & klinikejer</div><h3>Julie</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-rebekka')" style="text-align:left"><div class="info-card-img"><img src="images/rebekka.avif" alt="Rebekka" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Dyrlæge</div><h3>Rebekka</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-anne-t')" style="text-align:left"><div class="info-card-img"><img src="images/anne.avif" alt="Anne" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Dyrlæge</div><h3>Anne</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-michaela')" style="text-align:left"><div class="info-card-img"><img src="images/michaela.avif" alt="Michaela" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Veterinærsygeplejerske</div><h3>Michaela</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-anne-s')" style="text-align:left"><div class="info-card-img"><img src="images/anne_sofie.avif" alt="Anne Sofie" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Veterinærsygeplejerske</div><h3>Anne Sofie</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-melissa')" style="text-align:left"><div class="info-card-img"><img src="images/melissa.avif" alt="Melissa" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Veterinærsygeplejerske elev</div><h3>Melissa</h3><span class="read-more">Læs mere →</span></div></div>
+<div class="info-card" onclick="go('staff-susie')" style="text-align:left"><div class="info-card-img"><img src="images/susie.avif" alt="Susie" style="width:100%;height:100%;object-fit:cover;object-position:center top"></div><div class="info-card-body"><div style="font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--g-mid);margin-bottom:.3rem">Klinikassistent</div><h3>Susie</h3><span class="read-more">Læs mere →</span></div></div></div>
+  </div></div>
+</div>
+
+<div id="pg-staff-louise" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Dyrlæge & klinikejer</div><h1 style="font-family:var(--serif);font-size:2.2rem">Louise</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Uddannet fra Den Kgl. Veterinær og Landbohøjskole i 2005. Jeg har arbejdet på smådyrsklinikker i København og har mere end 15 års erfaring med behandling af smådyr. Mine faglige interesser favner bredt, men til daglig beskæftiger jeg mig primært med tandbehandlinger, bløddelskirurgi samt medicinske patienter.</p><ul style="line-height:1.9;padding-left:1.5rem;margin-top:.75rem"><li style="font-size:1rem;color:var(--t-body)">Dental ekstraktion</li><li style="font-size:1rem;color:var(--t-body)">Laboratoriediagnostik</li><li style="font-size:1rem;color:var(--t-body)">Anæstesi og monitorering</li><li style="font-size:1rem;color:var(--t-body)">Adskillige kurser i intern medicin, kirurgi og laboratoriediagnostik</li></ul><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:1rem">Jeg bor i Lyngby med min mand, fire drenge og Mamba — vores søde labrador, der fik seks hvalpe i sommeren 2019 — og igen i vinteren 2021!</p></div><div><img src="images/louise.avif" alt="Louise" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-julie" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Dyrlæge & klinikejer</div><h1 style="font-family:var(--serif);font-size:2.2rem">Julie</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Uddannet dyrlæge på Københavns Universitet i 2014. Jeg har arbejdet frivilligt som kirurg på Cook-øerne i 5 måneder, inden jeg blev færdiguddannet. Herefter arbejdede jeg et år i Canada.</p><ul style="line-height:1.9;padding-left:1.5rem;margin-top:.75rem"><li style="font-size:1rem;color:var(--t-body)">Jeg udfører de fleste indgreb inden for bløddelskirurgi og tandbehandlinger på både hund, kat, kanin og marsvin.</li><li style="font-size:1rem;color:var(--t-body)">Efter Canada arbejdede jeg på en travl smådyrsklinik med intern medicin, almen medicin, kirurgi og tandbehandling.</li><li style="font-size:1rem;color:var(--t-body)">Mine interesser er meget brede, men jeg forventer at videreuddanne mig inden for kirurgi og kiropraktik.</li></ul><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:1rem">Jeg bor på Frederiksberg sammen med min canadiske mand og vores kat, Skumfidus.</p></div><div><img src="images/julie.avif" alt="Julie" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-rebekka" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Dyrlæge</div><h1 style="font-family:var(--serif);font-size:2.2rem">Rebekka</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Uddannet dyrlæge fra Københavns Universitet i 2018. Jeg har arbejdet på flere smådyrsklinikker i Storkøbenhavn, senest på Lyngby Dyrehospital, hvor jeg også havde en del akutvagter for Vagtkreds Nord. Mine faglige interesser favner bredt, men mine hovedinteresser er bløddelskirurgi og tandbehandlinger. Derudover har jeg en stor kærlighed for kaniner. Jeg har gennemført en efteruddannelse (Certificate of Small Animal Veterinary Practice — Soft Tissue Surgery) via ESAVS og universitetet i Luxembourg.</p><p style="line-height:1.8;font-size:1rem;font-weight:600;color:var(--t-dark);margin-top:1rem;margin-bottom:.5rem">ESAVS-kurser:</p><ul style="line-height:1.9;padding-left:1.5rem"><li style="font-size:1rem;color:var(--t-body)">Soft Tissue Surgery I: Basale kirurgiske principper, vævshåndtering, suturteknikker og mavetarmkirurgi.</li><li style="font-size:1rem;color:var(--t-body)">Soft Tissue Surgery II: Tumoroperationer med hudrekonstruktion samt perineal- og analkirurgi.</li><li style="font-size:1rem;color:var(--t-body)">Soft Tissue Surgery III: Avanceret abdominalkirurgi inkl. urinveje, lever, galdeveje, bugspytkirtel og binyrer.</li><li style="font-size:1rem;color:var(--t-body)">Soft Tissue Surgery IV: Hoved- og halskirurgi, herunder øvre luftveje (bl.a. BOAS-kirurgi), ørekirurgi, spytkirtler samt thyroidea/parathyroidea.</li><li style="font-size:1rem;color:var(--t-body)">Oncology I: Diagnostik, staging og behandlingsstrategier (kirurgi, stråleterapi, kemoterapi) med særligt fokus på hudtumores.</li><li style="font-size:1rem;color:var(--t-body)">Ortopædi I: Halthedsdiagnostik, funktionel anatomi, billeddiagnostik samt ortopædiske lidelser hos voksne og unge hunde.</li></ul><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:.75rem">Derudover deltager jeg løbende i aftenkurser, webinarer og tandkurser for kontinuerligt at dygtiggøre mig.</p><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:.75rem">Jeg er for det meste at finde på operationsstuen, men I kan også møde mig i konsultationen, hvor jeg gør mit bedste for at skabe en tryg og behagelig oplevelse for både dyr og ejere.</p><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:.75rem">Privat bor jeg i København og bruger fritiden på madlavning, kreative sysler og træning.</p></div><div><img src="images/rebekka.avif" alt="Rebekka" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+
+
+<div id="pg-staff-anne-t" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Dyrlæge</div><h1 style="font-family:var(--serif);font-size:2.2rem">Anne</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Anne er en af grundlæggerne bag Nybrovej Dyreklinik.</p><ul style="line-height:1.9;padding-left:1.5rem;margin-top:.75rem"><li style="font-size:1rem;color:var(--t-body)">Har været ansat på Greve Dyrehospital</li><li style="font-size:1rem;color:var(--t-body)">Forsket i adfærd på Landbohøjskolen</li><li style="font-size:1rem;color:var(--t-body)">Medstifter og ejer af Vangede Dyreklinik til 1994</li><li style="font-size:1rem;color:var(--t-body)">Timelærer på Landbohøjskolen indtil opstart af Nybrovej Dyreklinik i 1995</li></ul><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:1rem">Jeg har en hund og to katte.</p></div><div><img src="images/anne.avif" alt="Anne" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-michaela" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Veterinærsygeplejerske</div><h1 style="font-family:var(--serif);font-size:2.2rem">Michaela</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Jeg arbejder her på Nybrovej Dyreklinik som veterinærsygeplejerske. Min store kærlighed er — og har altid været — dyrene, og jeg elsker at gøre en forskel for dem hver eneste dag her på klinikken.</p><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:.75rem">Jeg interesserer mig for tandbehandling og anæstesi, så jeg er primært at finde på vores operationsstue.</p></div><div><img src="images/michaela.avif" alt="Michaela" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-anne-s" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Veterinærsygeplejerske</div><h1 style="font-family:var(--serif);font-size:2.2rem">Anne Sofie</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Jeg blev uddannet veterinærsygeplejerske på Nybrovej Dyreklinik i marts 2024. Tidligere har jeg arbejdet på kontor og i forsikringsbranchen, men valgte at forfølge min drøm og uddanne mig til veterinærsygeplejerske.</p><ul style="line-height:1.9;padding-left:1.5rem;margin-top:.75rem"><li style="font-size:1rem;line-height:1.8;color:var(--t-body)">Jeg er primært at finde på operationsstuen og hos de akutte patienter. I vil også møde mig i telefonen og i skranken.</li><li style="font-size:1rem;line-height:1.8;color:var(--t-body)">Mine faglige interesser er brede, men især hunde- og katteadfærd vil jeg gerne dygtiggøre mig inden for.</li></ul><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-top:1rem">Jeg bor i Slangerup sammen med min kæreste og vores søde hund Kenya.</p></div><div><img src="images/anne_sofie.avif" alt="Anne Sofie" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-melissa" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Veterinærsygeplejerske elev</div><h1 style="font-family:var(--serif);font-size:2.2rem">Melissa</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Mere info følger snarest...</p></div><div><img src="images/melissa.avif" alt="Melissa" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+<div id="pg-staff-susie" class="page"><div class="pg-hdr"><div class="c"><div style="font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--g-main);margin-bottom:.3rem">Klinikassistent</div><h1 style="font-family:var(--serif);font-size:2.2rem">Susie</h1></div></div><div class="sec-alt"><div class="c"><span onclick="go('personale')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Personale</span><div style="display:grid;grid-template-columns:1fr 300px;gap:4rem;align-items:start"><div><p style="line-height:1.8;font-size:1rem;color:var(--t-body);margin-bottom:.75rem">Jeg har arbejdet som klinikassistent siden september 2022. Min baggrund er lidt anderledes, da jeg er født i Skotland og opvokset i det solrige Sydafrika. Jeg har altid haft kæledyr og været dybt interesseret i dyrenes verden. Min erfaring strækker sig særligt til galopheste, som jeg har arbejdet med i mange år.</p><ul style="line-height:1.9;padding-left:1.5rem;margin-top:.75rem"><li style="font-size:1rem;line-height:1.8;color:var(--t-body)">Her på klinikken har jeg mange forskellige opgaver, hvilket gør hver dag spændende og udfordrende.</li></ul></div><div><img src="images/susie.avif" alt="Susie" style="width:100%;border-radius:var(--r);object-fit:cover;object-position:center top"></div></div></div></div></div>
+
+
+
+<!-- PRISER -->
+<div id="pg-priser" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Nybrovej Dyreklinik</div><h1>Priser</h1><p>Oversigt over vores priser. Opdateret 19. oktober 2025. Alle priser er inkl. moms.</p></div></div>
+  <div class="sec-alt"><div class="c">
+    <div class="price-grid"><div class="price-sec"><div class="price-hdr"><h3>Konsultation</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Konsultation hund og kat</span><span class="price-amt">850,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Konsultation kanin/marsvin</span><span class="price-amt">850,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Akut/udvidet konsultation</span><span class="price-amt">1.130,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Receptgebyr</span><span class="price-amt">95,-</span></div><div class="price-row" style=""><span class="price-name">Udleveringsgebyr</span><span class="price-amt">70,-</span></div></div><div class="price-sec"><div class="price-hdr"><h3>Vaccinationer</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination hund/kat inkl. miljøtillæg*</span><span class="price-amt">850,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination rabies i forb. med anden vaccine*</span><span class="price-amt">450,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination kanin inkl. miljøtillæg*</span><span class="price-amt">850,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Udfærdigelse af pas</span><span class="price-amt">750,-</span></div><div class="price-row" style=""><span class="price-name">Undersøgelse for hjerte-lungeorm</span><span class="price-amt">675,-</span></div><div class="price-note">*Vaccinens pris tillægges og afhænger af dyrets behov</div></div><div class="price-sec"><div class="price-hdr"><h3>Neutralisering — kat</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration</span><span class="price-amt">1.450,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration, øremærkning og vaccination</span><span class="price-amt">1.950,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Sterilisation</span><span class="price-amt">2.500,-</span></div><div class="price-row" style=""><span class="price-name">Sterilisation, øremærkning og vaccination</span><span class="price-amt">3.000,-</span></div></div><div class="price-sec"><div class="price-hdr"><h3>Neutralisering — hund</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration hund</span><span class="price-amt">Fra 3.300,-</span></div><div class="price-row" style=""><span class="price-name">Sterilisation hund</span><span class="price-amt">Fra 5.500,-</span></div></div><div class="price-sec"><div class="price-hdr"><h3>Neutralisering — kanin og marsvin</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Sterilisation kanin</span><span class="price-amt">Fra 2.900,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration kanin</span><span class="price-amt">Fra 2.100,-</span></div><div class="price-row" style=""><span class="price-name">Kastration marsvin</span><span class="price-amt">1.900,-</span></div></div><div class="price-sec"><div class="price-hdr"><h3>Tandbehandling</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Tandrens kat inkl. fuld tandrøntgen</span><span class="price-amt">Ca. 3.000,-</span></div><div class="price-row" style=""><span class="price-name">Tandrens hund inkl. fuld tandrøntgen</span><span class="price-amt">Ca. 3.800,-</span></div></div><div class="price-sec"><div class="price-hdr"><h3>Hvalpepakker</h3></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination og sundhedstjek</span><span class="price-amt">875,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination, sundhedstjek og chipmærkning</span><span class="price-amt">1.100,-</span></div><div class="price-row" style=""><span class="price-name">Revaccination og sundhedstjek</span><span class="price-amt">650,-</span></div></div></div>
+  </div></div>
+</div>
+
+<!-- SUB PAGES -->
+<div id="pg-sub-hjerteorm" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Hjerteorm</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.5rem;color:var(--t-dark);margin-bottom:1rem">Kære alle hundeejere!</h2>
+        <p style="line-height:1.8;margin-bottom:1rem">Vi bor i et område, hvor hjerteormen spreder sig i vores snegle. De fleste hunde spiser ikke snegle med vilje, men til gengæld spiser hunde ofte nedfaldsfrugt, græs og andre dyrs efterladenskaber — og her kan sneglene gemme sig.</p>
+        <div style="background:#fef2f2;border-left:4px solid #e05a5a;border-radius:0 var(--rs) var(--rs) 0;padding:1rem 1.25rem;margin-bottom:1.5rem"><p style="color:#7a1a1a;font-weight:600;margin:0">⚠️ Infektion med hjerteorm kan være livsfarlig for din hund!</p></div>
+        <p style="line-height:1.8;margin-bottom:1rem">Hunde smittes med hjerteorm ved at indtage en inficeret vært — sneglen. Larverne udvikles til voksne orme, der slår sig ned i lungearterien og i de mindre lungekar.</p>
+        <p style="line-height:1.8;margin-bottom:1.5rem">Tiden fra smitte til parasitten kan påvises i afføringen er <strong>30–60 dage</strong>.</p>
+        <p style="line-height:1.8;margin-bottom:.5rem">Hunde med hjerteormen kan fremstå <strong>raske</strong> eller have symptomer som hoste, motionsintolerance og åndenød.</p>
+        <div style="margin-top:1.5rem">
+          <p style="font-size:.9rem;color:var(--t-muted);margin-bottom:1rem">Video af nyklækkede larver påvist ved afføringsundersøgelse:</p>
+          <div style="position:relative;border-radius:var(--r);overflow:hidden;background:#1a1a1a;max-width:360px">
+            <video autoplay loop muted playsinline controls style="width:100%;display:block"><source src="images/hjerteorm_video.mp4" type="video/mp4"></video>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div></div>
+</div>
+
+<div id="pg-sub-vaccinationer" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Vaccinationer</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--t-dark);margin-bottom:1rem">Vaccination af hvalpe og voksne hunde</h2>
+        <p style="line-height:1.8;margin-bottom:1.25rem"><strong>Hvalpe</strong> bør vaccineres fra 8-ugers alderen og herefter hver 4. uge, indtil hvalpen er minimum 16 uger.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem">
+          <div style="background:var(--g-light);border-radius:var(--rs);padding:1.25rem"><h4 style="font-family:var(--serif);font-size:.95rem;margin-bottom:.5rem">Kernevacciner</h4><ul style="line-height:1.8;padding-left:1.25rem;font-size:.9rem"><li>Hundesyge</li><li>Parvovirus</li><li>Adenovirus</li></ul></div>
+          <div style="background:#f5f0e8;border-radius:var(--rs);padding:1.25rem"><h4 style="font-family:var(--serif);font-size:.95rem;margin-bottom:.5rem">Tillægsvacciner</h4><ul style="line-height:1.8;padding-left:1.25rem;font-size:.9rem"><li>Leptospirose</li><li>Parainfluenza</li><li>Kennelhoste næsevaccine</li></ul></div>
+        </div>
+        <p style="line-height:1.8;margin-bottom:1rem">Når hvalpen er 26–52 uger, gives endnu en vaccination. Vi anbefaler denne booster i 7-måneders alderen ved unghundetjekket, hvor hunden gennemgås grundigt mht. tandskifte, hud, pels, fodervejledning og adfærd.</p>
+        <p style="line-height:1.8;margin-bottom:1rem"><strong>Rabiesvaccination</strong> gives kun ved udlandsrejse — kan gives fra 12-ugers alderen, revaccination hvert 3. år.</p>
+        <p style="line-height:1.8"><strong>Voksne hunde</strong> revaccineres med kernevacciner hvert 3. år og tillægsvacciner hvert år.</p>
+      </div>
+    <div style="background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;margin-top:2rem;max-width:620px">
+      <div style="background:var(--g-light);padding:.85rem 1.5rem;border-bottom:1px solid var(--w-border)"><h3 style="font-family:var(--serif);font-size:1rem;font-weight:600;margin:0">Priser på vaccinationer</h3></div>
+      <div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination hund/kat inkl. miljøtillæg*</span><span class="price-amt">850,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination rabies i forb. med anden vaccine*</span><span class="price-amt">450,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination og sundhedstjek (hvalpepakke)</span><span class="price-amt">875,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination, sundhedstjek og chipmærkning</span><span class="price-amt">1.100,-</span></div><div class="price-row" style=""><span class="price-name">Revaccination og sundhedstjek</span><span class="price-amt">650,-</span></div>
+      <div class="price-note">*Vaccinens pris tillægges og afhænger af dyrets behov</div>
+    </div>
+  </div></div>
+</div>
+
+<div id="pg-sub-forsikringer" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Forsikringer</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--t-dark);margin-bottom:1rem">Beskyt dit kæledyr med en forsikring</h2>
+        <p style="line-height:1.8;margin-bottom:1rem">En dyreforsikring kan dække behandlingsudgifter, som ellers kan blive meget store — fx ved operationer, ulykker eller kroniske sygdomme. Vi anbefaler altid at tegne en forsikring, når man anskaffer sig et nyt kæledyr.</p>
+        <ul style="line-height:1.9;padding-left:1.5rem;margin-bottom:1.5rem"><li>Tegn forsikringen så tidligt som muligt</li><li>Sammenlign dækning og selvrisiko på tværs af selskaber</li><li>Vær opmærksom på karensperioder og undtagelser</li><li>Kroniske lidelser dækkes typisk ikke, hvis de opstår inden forsikringen tegnes</li></ul>
+        <div style="background:var(--g-light);border-radius:var(--r);padding:1.5rem 2rem;border:1px solid var(--w-border)">
+          <h3 style="font-family:var(--serif);font-size:1.1rem;margin-bottom:.75rem">Sammenlign forsikringer</h3>
+          <p style="line-height:1.8;margin-bottom:1rem">Fagmagasinet <strong>DYRLÆGEN</strong> har samlet dyreforsikringer fra Danmarks 10 største selskaber. Hent som <a href="https://dyrlaegen.nu/wp-content/uploads/2023/02/Dyrlaegen_Forsikringsoversigter_2023.pdf" target="_blank" style="color:var(--g-main);font-weight:600">PDF-fil</a>.</p>
+          <p style="line-height:1.8">Se mere: <a href="https://www.dyrlaegen.nu/forsikringsoversigt" target="_blank" style="color:var(--g-main);font-weight:600">dyrlaegen.nu/forsikringsoversigt</a></p>
+        </div>
+      </div>
+  </div></div>
+</div>
+
+<div id="pg-sub-neutralisering" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Neutralisering</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--t-dark);margin-bottom:1rem">Neutralisering af kat</h2>
+        <p style="line-height:1.8;margin-bottom:1rem">Neutralisering — kastration af hankatte og sterilisation af hunkatte — er et af de hyppigst udførte indgreb på en dyreklinik, og det er en sikker og skånsom operation, som din kat hurtigt kommer sig over.</p>
+        <p style="line-height:1.8;margin-bottom:1rem">Ud over at forebygge uønsket avl har neutralisering en række sundhedsmæssige fordele: risikoen for livmoderbetændelse og visse kræftformer reduceres markant hos hunner, og hankatte bliver typisk mere rolige og tilbøjelige til at blive hjemme.</p>
+        <p style="line-height:1.8;margin-bottom:1rem">Vi vil gerne støtte op om, at ALLE katte bør mærkes, registreres og neutraliseres. Dyrenes Beskyttelse anbefaler et lovkrav herom. Læs mere <a href="https://www.dyrenesbeskyttelse.dk/artikler/vi-skal-have-styrket-kattens-status-i-danmark" target="_blank" rel="noopener" style="color:var(--g-main);font-weight:600">her</a>.</p>
+        <p style="line-height:1.8;margin-bottom:1rem">Operationen foregår i fuld bedøvelse med løbende overvågning af din kats vitale funktioner. Din kat kan som regel hentes hjem samme dag.</p>
+        <div style="background:var(--g-light);border-left:3px solid var(--g-main);border-radius:0 var(--rs) var(--rs) 0;padding:1rem 1.25rem;margin-bottom:1.5rem"><p style="font-size:.9rem;margin:0">🏷️ <strong>Øretatovering er gratis.</strong> Chipmærkning i forbindelse med operation koster 350,-</p></div>
+        <div style="background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;margin-bottom:1rem;max-width:620px">
+          <div style="background:var(--g-light);padding:.85rem 1.5rem;border-bottom:1px solid var(--w-border)"><h3 style="font-family:var(--serif);font-size:1rem;font-weight:600;margin:0">Priser — kat</h3></div>
+          <div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration</span><span class="price-amt">1.450,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Kastration, øremærkning og vaccination</span><span class="price-amt">1.950,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Sterilisation</span><span class="price-amt">2.500,-</span></div><div class="price-row" style=""><span class="price-name">Sterilisation, øremærkning og vaccination</span><span class="price-amt">3.000,-</span></div>
+        </div>
+        <ul style="font-size:.82rem;color:var(--t-subtle);line-height:1.9;padding-left:1.25rem"><li>Ekskl. registrering i Dansk Katteregister</li><li>Inkl. smertestillende medicin på operationsdagen</li><li>Inkl. recept til hjemmet</li><li>Ekskl. krave til steriliserede katte</li></ul>
+        <div style="margin-top:1.5rem"><a href="tel:45885040" class="btn btn-p" style="color:#fff">Bestil tid: 45 88 50 40</a></div>
+      </div>
+  </div></div>
+</div>
+
+<div id="pg-sub-hvalpepakker" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Hvalpepakker</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--t-dark);margin-bottom:1rem">Kom godt fra start med din nye hvalp</h2>
+        <p style="line-height:1.8;margin-bottom:1rem">De første måneder er afgørende for hvalpens sundhed og velvære. Vores hvalpepakker er sat sammen, så du får den bedste vejledning og de vigtigste undersøgelser til en fordelagtig pris.</p>
+        <p style="line-height:1.8;margin-bottom:1rem">Ved første hvalpebesøg gennemgår vi hvalpens krop fra snude til hale: hjerte, lunger, ører, øjne, led og hud. Vi taler om vaccination, ormekure, loppe- og flåtbehandling, fodring og socialisering — så du er godt klædt på til de første måneder.</p>
+        <p style="line-height:1.8;margin-bottom:1.5rem">Ring til os og fortæl hvornår din hvalp er født — så hjælper vi dig med at planlægge det rigtige vaccinationsprogram.</p>
+        <div style="background:var(--g-light);border-left:3px solid var(--g-main);border-radius:0 var(--rs) var(--rs) 0;padding:1rem 1.25rem;margin-bottom:1.5rem"><p style="line-height:1.8;margin:0">🐾 <strong>Ved første hvalpebesøg</strong> er der afsat 30 min. til undersøgelsen, så du kan få svar på alle spørgsmål.</p></div>
+        <div style="background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;margin-bottom:1rem;max-width:620px">
+          <div style="background:var(--g-light);padding:.85rem 1.5rem;border-bottom:1px solid var(--w-border)"><h3 style="font-family:var(--serif);font-size:1rem;font-weight:600;margin:0">Priser</h3></div>
+          <div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination og sundhedstjek</span><span class="price-amt">875,-</span></div><div class="price-row" style="border-bottom:1px solid var(--w-border);"><span class="price-name">Vaccination, sundhedstjek og chipmærkning (inkl. registrering)</span><span class="price-amt">1.100,-</span></div><div class="price-row" style=""><span class="price-name">Revaccination og sundhedstjek</span><span class="price-amt">650,-</span></div>
+        </div>
+        <a href="tel:45885040" class="btn btn-p" style="color:#fff">Bestil tid: 45 88 50 40</a>
+      </div>
+  </div></div>
+</div>
+
+<div id="pg-sub-tandbehandling" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Information</div><h1>Tandbehandling</h1></div></div>
+  <div class="sec-alt"><div class="c"><span onclick="go('information')" style="display:inline-flex;align-items:center;gap:.4rem;cursor:pointer;font-size:.875rem;font-weight:600;color:var(--g-main);margin-bottom:1.5rem">← Tilbage til Information</span>
+    <div style="max-width:760px">
+        <h2 style="font-family:var(--serif);font-size:1.6rem;color:var(--t-dark);margin-bottom:1rem">Sunde tænder giver et bedre liv</h2>
+        <p style="line-height:1.8;margin-bottom:1rem">God tandsundhed handler ikke kun om tænder — kronisk tandkødsbetændelse kan sprede bakterier til blodbanen og på sigt belaste hjertet, nyrerne og leveren. At holde din hunds eller kats tænder sunde er en investering i hele helbredet.</p>
+        <p style="line-height:1.8;margin-bottom:1rem">Vi anbefaler at kigge i munden på dit kæledyr jævnligt. Daglig tandbørstning er den bedste forebyggelse — jo tidligere din hvalp vænner sig til det, jo nemmere er det.</p>
+        <p style="line-height:1.8;margin-bottom:.75rem">Bemærker du et eller flere af disse tegn, bør du bestille en tid:</p>
+        <ul style="line-height:1.9;padding-left:1.5rem;margin-bottom:1.5rem">
+          <li>Dårlig ånde der ikke forsvinder</li>
+          <li>Gule eller brune belægninger på tænderne</li>
+          <li>Rødt, hævet eller blødende tandkød</li>
+          <li>Løse tænder eller tænder der mangler</li>
+          <li>Synlig hævelse ved kæben</li>
+          <li>Nedsat appetit, savlen eller ændret adfærd</li>
+        </ul>
+        <span class="btn btn-p" onclick="go('tandklinikken')" style="cursor:pointer;display:inline-flex;margin-bottom:1.5rem">Læs mere om vores tandklinik →</span>
+        
+      </div>
+  </div></div>
+</div>
+
+<div id="pg-privatlivspolitik" class="page">
+  <div class="pg-hdr"><div class="c"><div class="sec-label">Nybrovej Dyreklinik</div><h1>Cookie- og privatlivspolitik</h1><p>Sidst redigeret: 10. april 2024</p></div></div>
+  <div class="sec-alt"><div class="c" style="max-width:760px">
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:.75rem 0 .5rem">Introduktion</h3>
+    <p style="line-height:1.8;margin-bottom:1rem">Når du besøger vores website (www.nybrovejdyreklinik.dk) indsamles der oplysninger om dig, som bruges til at tilpasse og forbedre vores indhold. Hvis du ikke ønsker, at der indsamles oplysninger, bør du slette dine cookies og undlade videre brug af websitet.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Cookies</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Websitet anvender cookies, der er en tekstfil, som gemmes på din computer, mobil el. tilsvarende med det formål at genkende den, huske indstillinger, udføre statistik og målrette annoncer. Cookies kan ikke indeholde skadelig kode som f.eks. virus.</p>
+    <p style="line-height:1.8;margin-bottom:.75rem">Det er muligt at slette eller blokere for cookies. Hvis du sletter eller blokerer cookies, skal du være opmærksom på, at der kan være funktionalitet på forskellige websites, der ikke virker.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Disse cookies anvender vi</h3>
+    <p style="line-height:1.8;margin-bottom:1rem">Vi anvender Google Analytics webanalysecookie. Denne cookie anvendes til at måle din brug af websitet. Disse målinger bruges til at udføre statistik over brugen af websitet samt til at finde uhensigtsmæssigheder på websitet, så vi kan forbedre brugernes oplevelse af vores website.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Personoplysninger</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Personoplysninger er alle slags informationer, der i et eller andet omfang kan henføres til dig. Når du benytter vores website, indsamler og behandler vi en række sådanne informationer. Det sker f.eks. ved alm. tilgang af indhold. Vores website anvender ikke følgende funktioner, der også indeholder personoplysninger: Nyhedsbreve, konkurrencer, undersøgelser, køb eller oprettelse af abonnent.</p>
+    <p style="line-height:1.8;margin-bottom:.75rem">Vi indsamler og behandler typisk følgende typer af oplysninger: Et unikt ID og tekniske oplysninger om din computer, tablet eller mobiltelefon, dit IP-nummer, geografisk placering, samt hvilke sider du klikker på. Vi anvender ikke følgende oplysninger: Navn, telefonnummer, e-mail, adresse og betalingsoplysninger.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Sikkerhed</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Vi behandler dine personoplysninger sikkert og fortroligt i overensstemmelse med gældende lovgivning, herunder persondataforordningen og databeskyttelsesloven. Dine oplysninger vil alene blive anvendt til det formål, de er indsamlet til, og vil blive slettet, når dette formål er opfyldt eller ikke længere relevant.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Periode for opbevaring</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Oplysningerne opbevares i det tidsrum, der er tilladt i henhold til lovgivningen, og vi sletter dem, når de ikke længere er nødvendige. Perioden afhænger af karakteren af oplysningen og baggrunden for opbevaring.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Videregivelse af oplysninger</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Data om din brug af websitet videregives til tredjepart i det omfang, disse oplysninger er kendt. Vi benytter en række tredjeparter til opbevaring og behandling af data. Disse behandler udelukkende oplysninger på vores vegne og må ikke anvende dem til egne formål. Vi anvender kun databehandlere i EU eller i lande, der kan give dine oplysninger en tilstrækkelig beskyttelse.</p>
+
+    <h3 style="font-family:var(--serif);color:var(--g-main);margin:1.5rem 0 .5rem">Indsigt og klager</h3>
+    <p style="line-height:1.8;margin-bottom:.75rem">Du har ret til at få oplyst, hvilke personoplysninger vi behandler om dig. Du kan desuden til enhver tid gøre indsigelse mod, at oplysninger anvendes. Henvendelse herom kan ske til: <a href="mailto:info@nybrodyr.dk" style="color:var(--g-main)">info@nybrodyr.dk</a>. Hvis du vil klage over vores behandling af dine personoplysninger, har du også mulighed for at tage kontakt til Datatilsynet.</p>
+    <p style="line-height:1.8;margin-bottom:1.5rem">Ønsker du ikke længere, at vi skal behandle dine personoplysninger, eller at vi skal begrænse behandlingen, kan du sende os en anmodning herom til ovennævnte e-mailadresse.</p>
+
+    <div style="background:var(--g-light);border-radius:var(--r);padding:1.5rem 2rem;border:1px solid var(--w-border)">
+      <strong style="display:block;margin-bottom:.75rem;color:var(--t-dark)">Udgiver — Websitet ejes og publiceres af:</strong>
+      <p style="line-height:1.9;color:var(--t-body)">
+        Nybrovej Dyreklinik ApS<br>
+        Nybrovej 266<br>
+        2800 Kongens Lyngby<br>
+        Telefon: <a href="tel:45885040" style="color:var(--g-main)">45 88 50 40</a><br>
+        Email: <a href="mailto:info@nybrodyr.dk" style="color:var(--g-main)">info@nybrodyr.dk</a>
+      </p>
+    </div>
+    <div style="margin-top:2rem"><span onclick="go('forside')" style="color:var(--g-main);font-weight:600;cursor:pointer">← Tilbage til forsiden</span></div>
+  </div></div>
+</div>
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="f-logo">Nybrovej Dyreklinik</div>
+      <p class="f-desc">Vi er en specialiseret smådyrsklinik i Kongens Lyngby, med fokus på omsorg og faglighed.</p>
+      <a href="https://www.vetfamily.dk/" target="_blank" rel="noopener" class="vf-link">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        VetFamily
+      </a>
+    </div>
+    <div class="f-col">
+      <h4>Navigation</h4>
+      <a onclick="go('forside')">Forside</a>
+      <a onclick="go('information')">Information</a>
+      <a onclick="go('tandklinikken')">Tandklinikken</a>
+      <a onclick="go('personale')">Personale</a>
+      <a onclick="go('priser')">Priser</a>
+    </div>
+    <div class="f-col">
+      <h4>Kontakt</h4>
+      <a href="tel:45885040">45 88 50 40</a>
+      <a href="mailto:info@nybrodyr.dk">info@nybrodyr.dk</a>
+      <p>Nybrovej 266</p>
+      <p>2800 Kongens Lyngby</p>
+      <a href="https://da-dk.facebook.com/nybrovejdyreklinik/" target="_blank" style="margin-top:.5rem">Facebook →</a>
+    </div>
+    <div class="f-col">
+      <h4>Åbningstider</h4>
+      <p>Man: 8–17 · Tir: 8–18<br>Ons–tor: 8–17 · Fre: 8–16</p>
+      <p style="margin-top:.75rem;font-size:.82rem;opacity:.8">Vagtdyrlæge:<br><a href="tel:36175711">36 17 57 11</a></p>
+    </div>
+  </div>
+  <div class="f-btm">
+    <div class="f-btm-inner">
+      <span>© 2026 Nybrovej Dyreklinik ApS</span>
+      <a onclick="go('privatlivspolitik')">Privatlivspolitik</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+try{if(localStorage.getItem('cookies'))document.getElementById('cookie-banner').style.display='none'}catch(e){}
+
+
+function toggleNav(){
+  var nav=document.querySelector('.nav-links');
+  var btn=document.getElementById('hamburger');
+  if(!nav||!btn)return;
+  nav.classList.toggle('open');
+  btn.classList.toggle('open');
+}
+function closeNav(){
+  var nav=document.querySelector('.nav-links');
+  var btn=document.getElementById('hamburger');
+  if(nav)nav.classList.remove('open');
+  if(btn)btn.classList.remove('open');
+}
+// URL mapping
+var urlMap = {
+  'forside':'/',
+  'information':'/information',
+  'tandklinikken':'/tandklinikken',
+  'personale':'/personale',
+  'priser':'/priser',
+  'sub-hjerteorm':'/hjerteorm',
+  'sub-vaccinationer':'/vaccinationer',
+  'sub-forsikringer':'/forsikringer',
+  'sub-neutralisering':'/neutralisering',
+  'sub-hvalpepakker':'/hvalpepakker',
+  'sub-tandbehandling':'/tandbehandling',
+  'privatlivspolitik':'/privatlivspolitik',
+  'staff-louise':'/personale/louise',
+  'staff-julie':'/personale/julie',
+  'staff-rebekka':'/personale/rebekka',
+  'staff-anne-t':'/personale/anne',
+  'staff-michaela':'/personale/michaela',
+  'staff-anne-s':'/personale/anne-sofie',
+  'staff-melissa':'/personale/melissa',
+  'staff-susie':'/personale/susie'
+};
+
+function go(id){
+  closeNav();
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+  document.querySelectorAll('.nav-links a').forEach(function(a){a.classList.remove('active')});
+  var pg=document.getElementById('pg-'+id);
+  if(pg)pg.classList.add('active');
+  var nl=document.getElementById('nl-'+id);
+  if(nl){nl.classList.add('active');}
+  else if(id.startsWith('sub-')){var el=document.getElementById('nl-information');if(el)el.classList.add('active');}
+  else if(id.startsWith('staff-')){var el=document.getElementById('nl-personale');if(el)el.classList.add('active');}
+  window.scrollTo({top:0,behavior:'smooth'});
+  // Update URL
+  var url = urlMap[id] || '/';
+  history.pushState({page:id}, '', url);
+  // Update page title
+  var titles = {
+    'forside':'Nybrovej Dyreklinik – Din Dyrlæge i Kongens Lyngby',
+    'information':'Information – Nybrovej Dyreklinik',
+    'tandklinikken':'Tandklinikken – Nybrovej Dyreklinik',
+    'personale':'Personale – Nybrovej Dyreklinik',
+    'priser':'Priser – Nybrovej Dyreklinik',
+    'sub-hjerteorm':'Hjerteorm – Nybrovej Dyreklinik',
+    'sub-vaccinationer':'Vaccinationer – Nybrovej Dyreklinik',
+    'sub-forsikringer':'Forsikringer – Nybrovej Dyreklinik',
+    'sub-neutralisering':'Neutralisering – Nybrovej Dyreklinik',
+    'sub-hvalpepakker':'Hvalpepakker – Nybrovej Dyreklinik',
+    'sub-tandbehandling':'Tandbehandling – Nybrovej Dyreklinik',
+    'privatlivspolitik':'Privatlivspolitik – Nybrovej Dyreklinik'
+  };
+  if(titles[id]) document.title = titles[id];
+}
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', function(e){
+  if(e.state && e.state.page) go(e.state.page);
+});
+
+// Handle direct URL access on page load
+window.addEventListener('DOMContentLoaded', function(){
+  var path = window.location.pathname;
+  var reverseMap = {
+    '/':'forside',
+    '/information':'information',
+    '/tandklinikken':'tandklinikken',
+    '/personale':'personale',
+    '/priser':'priser',
+    '/hjerteorm':'sub-hjerteorm',
+    '/vaccinationer':'sub-vaccinationer',
+    '/forsikringer':'sub-forsikringer',
+    '/neutralisering':'sub-neutralisering',
+    '/hvalpepakker':'sub-hvalpepakker',
+    '/tandbehandling':'sub-tandbehandling',
+    '/privatlivspolitik':'privatlivspolitik',
+    '/personale/louise':'staff-louise',
+    '/personale/julie':'staff-julie',
+    '/personale/rebekka':'staff-rebekka',
+    '/personale/anne':'staff-anne-t',
+    '/personale/michaela':'staff-michaela',
+    '/personale/anne-sofie':'staff-anne-s',
+    '/personale/melissa':'staff-melissa',
+    '/personale/susie':'staff-susie'
+  };
+  var pageId = reverseMap[path];
+  if(pageId && pageId !== 'forside'){
+    // Show correct page without pushing to history again
+    document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+    document.querySelectorAll('.nav-links a').forEach(function(a){a.classList.remove('active')});
+    var pg = document.getElementById('pg-'+pageId);
+    if(pg) pg.classList.add('active');
+    var nl = document.getElementById('nl-'+pageId);
+    if(nl){nl.classList.add('active');}
+    else if(pageId.startsWith('sub-')){var el=document.getElementById('nl-information');if(el)el.classList.add('active');}
+    else if(pageId.startsWith('staff-')){var el=document.getElementById('nl-personale');if(el)el.classList.add('active');}
+  }
+});
+try{if(localStorage.getItem('cookies'))document.getElementById('cookie-banner').style.display='none'}catch(e){}
+
+</script>
+</body>
+</html>
