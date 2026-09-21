@@ -81,7 +81,7 @@ a{color:inherit;text-decoration:none}
 
 /* INFO CARDS */
 .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.info-card{background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;transition:var(--transition);cursor:pointer}
+.info-card{display:block;background:var(--w-card);border:1px solid var(--w-border);border-radius:var(--r);overflow:hidden;transition:var(--transition);cursor:pointer}
 .info-card:hover{transform:translateY(-4px);box-shadow:var(--shm)}
 .info-card-img{height:240px;overflow:hidden}.info-card-img img{width:100%;height:100%;object-fit:cover;object-position:center 20%;transition:transform .3s}
 .info-card:hover .info-card-img img{transform:scale(1.04)}

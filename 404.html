@@ -2,22 +2,20 @@
 <html lang="da">
 <head>
 <meta charset="UTF-8">
-<title>Nybrovej Dyreklinik</title>
-<script>
-  // SPA-fallback til GitHub Pages, baseret på https://github.com/rafgraph/spa-github-pages
-  // segmentCount = 0, fordi sitet ligger i roden (custom domain, eller en bruger-side
-  // som mambassen.github.io). Hvis I i stedet ligger på et projekt-underspor
-  // (mambassen.github.io/reponavn/...), skal segmentCount ændres til 1.
-  var segmentCount = 0;
-  var l = window.location;
-  l.replace(
-    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-    l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
-    l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-    l.hash
-  );
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siden blev ikke fundet – Nybrovej Dyreklinik</title>
+<meta name="robots" content="noindex, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
-<body></body>
+<body>
+<div style="min-height:60vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3rem 1.5rem">
+  <div class="sec-label">Nybrovej Dyreklinik</div>
+  <h1 style="font-family:var(--serif);font-size:2.2rem;color:var(--t-dark);margin-bottom:1rem">Siden blev ikke fundet</h1>
+  <p style="color:var(--t-muted);max-width:480px;margin-bottom:2rem">Siden du ledte efter findes desværre ikke, eller er blevet flyttet. Prøv at gå til forsiden i stedet.</p>
+  <a href="/" class="btn btn-p" style="color:#fff">Til forsiden</a>
+</div>
+</body>
 </html>
