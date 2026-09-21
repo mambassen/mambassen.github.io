@@ -1,4 +1,3 @@
-
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--g-dark:#1e3020;--g-main:#3d5a3e;--g-mid:#5a7d5b;--g-light:#eef5ee;--w-bg:#faf7f2;--w-card:#fff;--w-border:#e8e0d0;--t-dark:#1e2e1e;--t-body:#4a4030;--t-muted:#7a6e5a;--t-subtle:#9a8e7a;--amber:#c8870a;--amber-bg:#fef8ec;--amber-border:#e8c87a;--serif:'Lora',Georgia,serif;--sans:'Inter','Helvetica Neue',system-ui,sans-serif;--r:14px;--rs:8px;--sh:0 2px 16px rgba(30,48,32,.08);--shm:0 4px 32px rgba(30,48,32,.13)}
 html{scroll-behavior:smooth}
@@ -23,6 +22,7 @@ a{color:inherit;text-decoration:none}
 
 /* PAGES */
 .page{display:none}.page.active{display:block}
+.hero-img-mobile{display:none}
 
 /* BUTTONS */
 .btn{display:inline-flex;align-items:center;gap:.4rem;padding:.75rem 1.85rem;border-radius:100px;font-family:var(--sans);font-size:.95rem;font-weight:600;cursor:pointer;border:none;transition:var(--transition);text-decoration:none;letter-spacing:.01em}
@@ -229,7 +229,9 @@ a[href^="tel"]:hover { opacity:.75; }
 
 /* RESPONSIVE */
 @media(max-width:900px){
-  .hero{grid-template-columns:1fr}.hero-img{height:280px}
+  .hero{grid-template-columns:1fr}.hero-img{display:none}.hero-img-mobile{display:block;margin:1.25rem 0}
+  .hero-img-mobile + .hero-desc{margin-top:1.25rem}
+  .hero-text .hero-desc:first-of-type{margin-bottom:1.25rem}
   .about-grid,.hc-grid,.tand-grid{grid-template-columns:1fr;gap:2rem}
   .services-grid,.info-grid{grid-template-columns:repeat(2,1fr)}
   .team-grid{grid-template-columns:repeat(2,1fr)}
@@ -267,6 +269,7 @@ a[href^="tel"]:hover { opacity:.75; }
   /* Section padding tighter on mobile */
   .sec,.sec-alt,.sec-green{padding:3rem 0}
   .pg-hdr{padding:2rem 0}
+  .hero-img img{border-radius:var(--r);width:100%;height:auto;max-height:320px;object-fit:cover}
   /* Price grid */
   .price-grid{grid-template-columns:1fr !important}
 }
