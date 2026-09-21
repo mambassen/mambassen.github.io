@@ -20,11 +20,11 @@
 
 </head>
 <body>
-<script>try{if(localStorage.getItem('cookies'))document.getElementById('cookie-banner').style.display='none'}catch(e){}</script>
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--g-dark);color:rgba(255,255,255,.9);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;box-shadow:0 -4px 20px rgba(0,0,0,.2)">
 <p style="font-size:.875rem;line-height:1.6;margin:0">Vi bruger cookies til statistik og forbedring af din oplevelse. <a href="/privatlivspolitik/" style="color:var(--g-light);text-decoration:underline;cursor:pointer">Privatlivspolitik</a>.</p>
 <button onclick="document.getElementById('cookie-banner').style.display='none';try{localStorage.setItem('cookies','ok')}catch(e){}" style="background:var(--g-main);color:#fff;border:none;border-radius:100px;padding:.5rem 1.25rem;font-size:.875rem;font-weight:600;cursor:pointer;flex-shrink:0">Acceptér</button>
 </div>
+<script>try{if(localStorage.getItem('cookies'))document.getElementById('cookie-banner').style.display='none'}catch(e){}</script>
 <nav class="nav">
 <div class="c">
 <a class="nav-logo" href="/">
