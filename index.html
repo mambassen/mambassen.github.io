@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
+<script>
+  // SPA-fallback til GitHub Pages: afkoder den sti, 404.html sendte os videre med,
+  // og genskaber den pæne URL, FØR routeren nederst i denne fil læser den.
+  // https://github.com/rafgraph/spa-github-pages
+  (function(l) {
+    if (l.search[1] === '/') {
+      var decoded = l.search.slice(1).split('&').map(function(s) {
+        return s.replace(/~and~/g, '&')
+      }).join('?');
+      window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+      );
+    }
+  }(window.location));
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nybrovej Dyreklinik – Din Dyrlæge i Kongens Lyngby</title>
