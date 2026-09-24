@@ -57,7 +57,7 @@ a{color:inherit;text-decoration:none}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
 .about-text p{color:var(--t-body);line-height:1.8;margin-bottom:1.1rem}
 .about-quote{margin-top:1.75rem;padding:1.35rem 1.6rem;background:var(--g-pale);border-left:3px solid var(--g-main);border-radius:0 var(--rs) var(--rs) 0;font-family:var(--serif);font-style:italic;color:var(--g-dark);line-height:1.75;font-size:1.02rem}
-.about-img{border-radius:var(--r);overflow:hidden;height:360px}.about-img img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.about-img{border-radius:var(--r);overflow:hidden;height:360px}.about-img img{width:100%;height:100%;object-fit:cover;object-position:58% 20%}
 
 /* SERVICES */
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.5rem}
@@ -174,14 +174,14 @@ a[href^="tel"]:hover { opacity:.75; }
     top:70px !important;
     left:0 !important;
     right:0 !important;
-    bottom:0 !important;
+    max-height:calc(100vh - 70px) !important;
     width:100% !important;
-    height:calc(100vh - 70px) !important;
     background:#fff !important;
     z-index:999999 !important;
     overflow-y:auto !important;
     overflow-x:hidden !important;
-    border-top:2px solid var(--g-light) !important;
+    border-top:1px solid var(--w-border) !important;
+    box-shadow:0 12px 24px rgba(28,46,32,.12) !important;
     gap:0 !important;
     padding:0 !important;
     margin:0 !important;
@@ -190,15 +190,18 @@ a[href^="tel"]:hover { opacity:.75; }
   .nav-links li:last-child{border-bottom:none}
   .nav-links a{
     display:block;
-    padding:1.25rem 2rem;
+    padding:1.1rem 2rem;
+    padding-left:calc(2rem - 3px);
+    border-left:3px solid transparent;
     border-radius:0;
-    font-size:1.1rem;
+    font-size:1.05rem;
     font-weight:500;
     color:var(--t-dark);
     background:none;
   }
-  .nav-links a.active{color:var(--g-main);background:var(--g-light)}
-  .nav-links a:hover{background:var(--g-pale);color:var(--g-main)}
+  .nav-links a::after{content:none !important}
+  .nav-links a.active{color:var(--g-main);border-left-color:var(--g-main)}
+  .nav-links a:hover{color:var(--g-main)}
   .nav-links .nav-cta{
     background:var(--g-main)!important;
     color:#fff!important;
