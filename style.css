@@ -35,7 +35,7 @@ a{color:inherit;text-decoration:none}
 .hero-text{padding:4rem clamp(1.5rem,4vw,3.5rem);display:flex;flex-direction:column;justify-content:center;max-width:600px}
 .eyebrow,.sec-label{font-size:.85rem;letter-spacing:0;color:var(--g-mid);font-weight:600;margin-bottom:.85rem}
 .hero-text h1{font-family:var(--serif);font-size:2.9rem;font-weight:600;line-height:1.12;color:var(--t-dark);margin-bottom:1.25rem;letter-spacing:-.01em}
-.hero-text h1 em{font-style:italic;color:var(--g-main)}
+.hero-text h1 em{font-style:normal;color:inherit}
 .hero-desc{font-size:1rem;color:var(--t-body);line-height:1.75;max-width:520px;margin-bottom:2rem}
 .btn-row{display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
 .hero-img{overflow:hidden;background:var(--g-light);display:flex;align-items:center;justify-content:center;padding:2.5rem 2rem}.hero-img img{width:100%;height:auto;max-height:380px;object-fit:cover;object-position:center top;border-radius:var(--r);box-shadow:var(--shm)}
