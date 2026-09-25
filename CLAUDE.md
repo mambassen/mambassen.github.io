@@ -129,7 +129,7 @@ Defineret som CSS-variabler øverst i `style.css` (`:root{...}`). Ret dem ét st
 - **Skilletegn:**
   - Kort tankestreg "–" i løbende tekst, ikke lang tankestreg "—".
   - Lodret streg "|" som separator i metainfo (fx åbningstider "Man: 8–17 | Tir: 8–18", eller undertekst "Smådyrsklinik | Kongens Lyngby"), ikke punktum "·".
-  - Pil "→" efter "Læs mere"-links er bevidst bevaret (klinikejerens ønske).
+  - Ingen pil "→" efter knapper, "Læs mere"-links eller footer-links (fx "Facebook"). Fjernet fra hele siden.
 
 ### Menu (navigation, computer)
 
