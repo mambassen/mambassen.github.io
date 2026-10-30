@@ -11,6 +11,12 @@ function closeNav(){
   if(nav)nav.classList.remove('open');
   if(btn)btn.classList.remove('open');
 }
+function toggleSubmenu(btn){
+  var submenu=btn.parentElement.nextElementSibling;
+  var open=btn.classList.toggle('open');
+  if(submenu)submenu.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
 // Luk mobilmenuen automatisk, når et menupunkt klikkes.
 // Selve navigationen sker nu via almindelige <a href>-links.
 document.addEventListener('DOMContentLoaded', function(){
