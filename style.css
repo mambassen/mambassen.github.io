@@ -231,7 +231,7 @@ a[href^="tel"]:hover, a[href^="mailto"]:hover { opacity:.75; }
   .hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
   .hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
   .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
-  .about-img img{object-position:50% 20%}
+  .about-img img{object-position:68% 20%}
   .nav-links li.has-sub{display:flex;flex-direction:column}
   .nav-li-row{display:flex;align-items:stretch}
   .nav-li-row a{flex:1}
