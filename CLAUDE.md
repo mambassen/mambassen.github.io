@@ -148,6 +148,11 @@ Disse blev alle fundet og rettet i den oprindelige gennemgang af siden – hold 
 - Runde piller til alle knapper og menupunkter
 - Ens kort-stil (samme runde hjørner + skygge + hover-løft) på alt indhold uanset om det er klikbart eller ej – tjek om et kort rent faktisk linker til noget, før det får en hover-effekt
 
+### Cookies og privatliv
+
+- Siden bruger **ingen cookies, ingen statistik og ingen sporing**, og har derfor intet cookie-banner. Det står også i privatlivspolitikken (`privatlivspolitik/index.html`).
+- Tilføjes der noget, der gemmer eller læser oplysninger hos den besøgende eller henter indhold fra tredjepart (fx Google Analytics, Facebook-pixel, indlejret YouTube/Google Maps, kontaktformular), skal klinikejeren spørges først: det kræver typisk et samtykke-banner med ligestillede ja/nej-knapper og en opdatering af privatlivspolitikken.
+
 ### Praktisk
 
 - Design-ændringer sker primært i `style.css` (fælles CSS-variabler og klasser) – ret der først, fremfor at style enkelte sider hver for sig.
