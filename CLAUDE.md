@@ -113,8 +113,8 @@ Defineret som CSS-variabler øverst i `style.css` (`:root{...}`). Ret dem ét st
 
 - **Overskrifter (serif):** Source Serif 4 – `var(--serif)`. IKKE Fraunces (blev forsøgt, men har mærkelige bogstavformer, bl.a. et unaturligt "f" med krøllet hale).
 - **Brødtekst (sans-serif):** IBM Plex Sans – `var(--sans)`. IKKE Inter (oprindelig skrifttype, virkede generisk).
-- Indlæses fra Google Fonts i `<head>` på hver side:
-  `family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400`
+- Skrifttype-filerne ligger lokalt i mappen `fonts/` og er defineret øverst i `style.css` (`@font-face`). De må IKKE hentes fra Google Fonts eller andre eksterne tjenester – det ville sende de besøgendes IP-adresse til tredjepart og kræve en ændring af privatlivspolitikken.
+- Tilgængelige snit: Source Serif 4 i 500 og 600 samt kursiv 500; IBM Plex Sans i 300, 400, 500 og 600 samt kursiv 400.
 
 ### Knapper
 
@@ -150,7 +150,7 @@ Disse blev alle fundet og rettet i den oprindelige gennemgang af siden – hold 
 
 ### Cookies og privatliv
 
-- Siden bruger **ingen cookies, ingen statistik og ingen sporing**, og har derfor intet cookie-banner. Det står også i privatlivspolitikken (`privatlivspolitik/index.html`).
+- Siden bruger **ingen cookies, ingen statistik og ingen sporing**, henter intet indhold fra tredjepart, og har derfor intet cookie-banner. Det står også i privatlivspolitikken (`privatlivspolitik/index.html`).
 - Tilføjes der noget, der gemmer eller læser oplysninger hos den besøgende eller henter indhold fra tredjepart (fx Google Analytics, Facebook-pixel, indlejret YouTube/Google Maps, kontaktformular), skal klinikejeren spørges først: det kræver typisk et samtykke-banner med ligestillede ja/nej-knapper og en opdatering af privatlivspolitikken.
 
 ### Praktisk
